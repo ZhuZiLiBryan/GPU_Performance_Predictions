@@ -4,3 +4,4 @@ from pathlib import Path
 # unzip data here
 data_dir = Path(__file__).resolve().parent / "data"
 data_dir.mkdir(parents=True, exist_ok=True)
+
